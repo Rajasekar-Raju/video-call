@@ -1,0 +1,696 @@
+.flex-container1 {
+    display: flex;
+    height: 380px;
+    background: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 50px rgba(178, 205, 206, 0.5) !important;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: #f8f9fa;
+    height: 380px;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 50px rgba(178, 205, 206, 0.5) !important;
+}
+
+.flex-item {
+    margin: 5px;
+}
+
+.flex-item:first-child {
+    flex: 2;
+}
+
+.flex-item:nth-child(2) {
+    flex: 1;
+}
+
+.flex-item:last-child {
+    background-color: #f8f9fa;
+    flex: 1;
+    flex-direction: column;
+}
+
+#remote-media video {
+    position: relative;
+    height: 580px;
+}
+
+#local-media video {
+    position: relative;
+    height: 580px;
+}
+
+.room-button {
+    width: 10%;
+    margin-left: 20px !important;
+    height: 38px;
+}
+
+.video-card-design {
+    max-width: 95% !important;
+    margin: auto !important;
+}
+
+.video-icons {
+    color: #fff !important;
+}
+
+.video-buttons {
+    background: #2c5566 !important;
+    margin: 12px !important;
+}
+
+.video-button-main {
+    text-align: center !important;
+    scroll-padding-top: 15px !important;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+}
+@media (max-width: 768px) {
+    .video-button-main {
+        bottom: unset;
+    }
+}
+.call-end {
+    background: #ed6262 !important;
+    margin: 5px !important;
+}
+
+.layout-style {
+    padding-left: 9%;
+    width: 100%;
+}
+
+.header-style {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.video-name {
+    color: #2c5566;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.room-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.room-input-style {
+    width: 15%;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.adduserpopupinner {
+    position: absolute;
+    left: 34%;
+    right: 30%;
+    top: 30%;
+    margin: auto;
+    border-radius: 20px;
+    background: white;
+}
+
+.popup-call-icons {
+    color: green !important;
+    font-size: 50px !important;
+    cursor: pointer;
+}
+
+.popup-end-icons {
+    color: red !important;
+    font-size: 50px !important;
+    cursor: pointer;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.add-call-image-style {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-stream-image-style {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin: 5px;
+    background: #2c5566 !important;
+}
+
+.join-call-image-style {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.callwaitingpopupinner {
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    top: 30%;
+    margin: auto;
+    background: white;
+}
+
+.popup-call-icons {
+    color: green !important;
+    font-size: 50px !important;
+    cursor: pointer;
+}
+
+.popup-end-icons {
+    color: red !important;
+    font-size: 50px !important;
+    cursor: pointer;
+}
+
+.call-image-view {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.call-image-style {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    position: relative;
+}
+.call-name-view {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 0px 0px;
+    outline: 0;
+}
+.modal-header {
+    display: flex;
+    justify-content: center;
+}
+.modal-title {
+    text-align: center;
+}
+
+.MuiInputLabel-animated {
+    color: black !important;
+}
+
+.MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+    color: black !important;
+}
+
+[draggable="true"] {
+    cursor: move;
+}
+
+.resizable {
+    overflow: scroll;
+    resize: both;
+    max-width: 300px;
+    max-height: 460px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: skyblue;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+    flex: 25%;
+    padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+.sidebar-divider {
+    color: #2c5566 !important;
+}
+.localWindow video {
+    position: relative;
+    top: 3px;
+    width: 460px;
+    height: 345px;
+    min-height: 240px;
+    margin: 4px;
+}
+.remoteRef video {
+    margin: 4px;
+    width: 460px;
+    height: 345px;
+    min-height: 240px;
+}
+/* Container for flexboxes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+    flex: 25%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.myDIV:hover + .hide {
+    display: block;
+}
+
+.video-screen {
+    color: #2c5566;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.video-screen:hover {
+    color: #2c5566;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.participant-name {
+    position: absolute;
+    width: 170px;
+    background: #2c5566;
+    color: #fff;
+    border-radius: 0px 0px 0px 0px;
+    text-transform: capitalize;
+    margin-top: -26px;
+    z-index: -1;
+    font-size: 17px;
+    margin-left: -1px;
+}
+
+.audioMute {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    color: red !important;
+    left: 170px;
+    bottom: 3px;
+}
+
+.audioUnMute {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    color: #2c5566 !important;
+    left: 170px;
+    bottom: 3px;
+}
+
+.remote-ref-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.short-name-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    text-align: center;
+    background-color: #e8e8e8;
+    width: 220px;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    height: 145px;
+}
+
+.short-name-container {
+    font-size: 30px;
+    padding: 40px;
+    font-weight: bold;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.short-name-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    position: relative;
+    transform: translateY(-50%);
+    display: inline-block;
+    position: relative;
+    top: 50%;
+}
+
+.active-short-name-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    text-align: center;
+    background-color: #e8e8e8;
+    width: 100%;
+    top: 3px;
+    position: relative;
+    z-index: -1;
+    height: 640px;
+}
+
+@media (max-width: 1600px) {
+    .active-short-name-card {
+        height: 420px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .active-short-name-card {
+        height: 290px;
+    }
+}
+
+.active-short-name-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 90px;
+    position: relative;
+    transform: translateY(-50%);
+    display: inline-block;
+    position: relative;
+    top: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+    .localWindow video {
+        width: 310px !important;
+        height: 240px !important;
+    }
+    .remoteRef video {
+        width: 310px !important;
+        height: 240px !important;
+    }
+}
+
+.pinIcon {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: #2c5566 !important;
+    font-size: 16px;
+    top: 127px;
+    right: 28px;
+    height: min-content;
+}
+
+.unpinIcon {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: #2c5566 !important;
+    font-size: 16px;
+    top: 125px;
+    right: 28px;
+    height: min-content;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.remote-participants {
+    display: flex;
+    position: relative;
+    right: 220px;
+}
+
+@media screen and (max-width: 1250px) {
+    .remote-participants {
+        right: 180px !important;
+    }
+    .short-name-card {
+        width: 180px;
+    }
+    .audioMute {
+        left: 135px;
+    }
+    .audioUnMute {
+        left: 135px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    width: 2px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.active-wowza {
+    height: inherit;
+    margin: 0px 0;
+    max-width: 100%;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.wowza-video {
+    height: 620px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1600px) {
+    .wowza-video {
+        height: 340px !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .wowza-video {
+        height: 330px !important;
+    }
+}
+
+.wowza-screen {
+    width: 200px !important;
+    height: 200px !important;
+
+    position: absolute;
+    width: 25% !important;
+    height: 25% !important;
+    z-index: 10;
+}
+
+.wowza-shortname {
+    width: 200px !important;
+    height: 200px !important;
+    position: absolute;
+    width: 25% !important;
+    height: 25% !important;
+    z-index: 10;
+    top: 42px;
+}
+
+.wowza-short-name-image {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.wowza-show-hide-icon {
+    float: right;
+    height: fit-content;
+    right: 38px;
+    position: relative;
+    cursor: pointer;
+}
+
+.participants_grid {
+    text-align: center;
+    padding: 0px;
+    height: 80vh;
+}
+
+@media (max-width: 992px) {
+    .participants_grid {
+        height: auto;
+    }
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+}
+
+td,
+th {
+    text-align: left !important;
+    padding: 5px;
+    padding-bottom: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.rounded-bar {
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 25px;
+    background: green;
+    color: white;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+
+.status-bar {
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 25px;
+    background: #216886;
+    color: white;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+}
+
+option {
+    font-size: 13px;
+}
+
+.fullScreen {
+    height: 100vh !important;
+}
+
+.react-modal-close {
+    position: absolute;
+    right: -20px;
+    top: -25px;
+    background: #ff1a33;
+    font-size: 18px;
+    border-radius: 90px;
+    cursor: pointer;
+}

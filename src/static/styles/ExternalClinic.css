@@ -1,0 +1,211 @@
+.sidenav {
+    height: 100%;
+    width: 13%;
+    position: fixed;
+    z-index: 1 !important;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 0px;
+}
+
+.sidenav a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 0px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #2196f3;
+    color: white;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a,
+    .topnav input[type="text"],
+    .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type="text"] {
+        border: 1px solid #ccc;
+    }
+}
+
+.external-clinic {
+    background: #e5e5e5;
+}
+
+.external-clinic-sidebar {
+    padding-left: 9%;
+    position: absolute;
+    width: 100%;
+}
+
+.external-clinic-header {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.search-clinic-title {
+    color: #2c5566;
+    font-weight: normal;
+}
+
+.search-clinic-filter {
+    width: 18%;
+    margin-top: -18px;
+    float: right;
+}
+
+.search-clinic-card {
+    background: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 4px 50px rgba(178, 205, 206, 0.5) !important;
+    padding: 10px !important;
+}
+
+.search-clinic-name {
+    text-align: start;
+    margin-top: 5px !important;
+    color: #2c5566;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.invite-button {
+    background: #92b7bc !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    box-shadow: 4px 4px 50px rgba(110, 144, 158, 0.5) !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.content-icons {
+    color: #92b7bc;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.search-clinic-pagination {
+    float: right;
+    padding: 20px;
+}
+
+.clinic-logo-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 4px 4px 50px rgba(110, 144, 158, 0.5);
+}
+
+.search-clinic-divider {
+    border-bottom: 1px solid lightgrey;
+    padding-top: 2px;
+}
+
+.icon-size {
+    font-size: 14px;
+}
+
+.search-clinic-card-outer {
+    padding: 10px;
+}
+
+.header-content {
+    padding: 10px;
+}
+
+.external-clinic-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.invite-button-outer {
+    text-align: end;
+}
+
+.external-clinic-icons {
+    padding-top: 10px;
+}

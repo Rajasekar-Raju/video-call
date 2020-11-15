@@ -1,0 +1,70 @@
+.incoming-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.popupinner {
+  /* position: absolute;
+  left: 75%;
+  right: 2%;
+  top: 63%;
+  margin: auto; */
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  margin: 0px;
+  width: 480px;
+  background: white;
+}
+
+.popup-call-icons {
+  color: green !important;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-end-icons {
+  color: red !important;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-footer {
+  justify-content: center !important;
+}
+
+.call-image-style {
+  width: 35px;
+  height: 35px;
+  border-radius: 90px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: 10px;
+}
+
+.call-icon {
+  background: #4eb2da !important;
+  margin: 20px !important;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}

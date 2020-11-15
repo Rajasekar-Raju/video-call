@@ -1,0 +1,189 @@
+.login-page {
+  background-image: url("../assets/background-image.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: inherit;
+}
+.login-view {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 86%;
+  height: 90%;
+}
+.login-card {
+  min-width: 27%;
+  position: relative;
+  bottom: 15px;
+  text-align: -webkit-right;
+  text-align: -moz-right;
+}
+.login-card-view {
+  background: #2c5566;
+  border-radius: 62px;
+  padding: 40px 45px 30px 40px;
+  display: block;
+  position: relative;
+  width: 78%;
+}
+.login-logo-view {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  width: 78%;
+}
+
+@media screen and (max-width: 800px) {
+  .login-card-view {
+    width: 60%;
+  }
+  .login-logo-view {
+    width: 60%;
+  }
+}
+
+.card-header {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  width: auto;
+  height: auto;
+}
+.logo-image {
+  width: 90%;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 15px;
+  background: transparent;
+  border-bottom: 1px;
+}
+
+.card-title {
+  float: right;
+}
+.MuiInputLabel-animated {
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  color: #fff;
+  font-size: 16px !important;
+}
+.MuiDivider-root {
+  border: none;
+  height: 1px;
+  margin: 0;
+  flex-shrink: 0;
+  background: #fff;
+}
+.MuiInputBase-input {
+  font: inherit;
+  color: #fff;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+}
+.login-button-view {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 15px;
+}
+.login-button {
+  background: #b2cdcf !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+  padding: 10px !important;
+  font-weight: bold !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  cursor: pointer;
+}
+.signup-view {
+  display: flex;
+  justify-content: center;
+}
+.signup-link {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.signup-link:hover {
+  text-decoration: underline;
+}
+.signup {
+  color: #fff;
+  font-size: 15px;
+}
+.err {
+  color: red;
+  text-align: start;
+  padding: 10px;
+}
+.form-label {
+  font-size: 14px !important;
+  color: #fff !important;
+}
+.forgot-link {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 2px;
+}
+@media screen and (max-width: 1200px) {
+  .button-style {
+    padding: 12px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .login-card-lap {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .login-card-tab {
+    width: 100%;
+  }
+}
+.form-view {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.form-controls {
+  margin-top: 10px;
+  width: 100%;
+}
+.text-fields {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+.field-icon {
+  color: #fff;
+}
+.forgot-link-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: auto;
+  margin-right: 10px;
+  text-align: end;
+}
+.field-icon {
+  cursor: pointer;
+}

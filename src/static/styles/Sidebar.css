@@ -1,0 +1,160 @@
+.sidenav {
+  height: 100%;
+  width: 10% !important;
+  z-index: 1 !important;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 0px !important;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 0px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+}
+
+.logoutIcon {
+  padding-left: 5px;
+}
+.sidebar-logo {
+  width: 88%;
+  margin: 12px;
+  margin-top: 22px;
+}
+
+@media screen and (max-width: 1500px) {
+  .sidebar-logo {
+    width: 83%;
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .sidenav-title {
+    font-size: 10px !important;
+  }
+  .sidenav-card {
+    padding: 0px !important;
+  }
+}
+.activeLink {
+  background: #c6e4e8 !important;
+}
+
+.activeLink svg {
+  background: #2c5566 !important;
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 20px !important;
+  color: white !important;
+  display: inline-block;
+  line-height: 50px !important;
+  width: 44px !important;
+  height: 44px !important;
+  text-align: center !important;
+  vertical-align: bottom !important;
+}
+.activeLink i {
+  background: #2c5566 !important;
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 20px !important;
+  color: white !important;
+  display: inline-block;
+  line-height: 50px !important;
+  width: 44px !important;
+  height: 44px !important;
+  text-align: center !important;
+  vertical-align: bottom !important;
+}
+
+.not-active-link {
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 20px !important;
+  display: inline-block;
+  line-height: 50px !important;
+  width: 44px !important;
+  height: 44px !important;
+  text-align: center !important;
+  vertical-align: bottom !important;
+}
+
+.sidebar-icons {
+  font-size: 40px !important;
+  color: #2c5566 !important;
+  background: #ffffff !important;
+}
+
+.sidebar-content {
+  width: 100% !important;
+  text-align: center !important;
+  padding: 12px;
+  display: table;
+}
+
+.sidebar-divider {
+  color: #2c5566 !important;
+}
+
+.sidebar-title {
+  color: #2c5566 !important;
+}
+
+.sidebar-icon-outer {
+  width: 100% !important;
+  text-align: -webkit-center;
+  padding-bottom: 15px !important;
+}
+
+.sidebar-logo-view {
+  overflow: hidden;
+}
+
+.sidebar-border {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-border-line {
+  border-bottom: 1px solid #2c5566;
+  width: 45px;
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 1024px) {
+  .activeLink svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .activeLink i {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .not-active-link {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .sidenav-title {
+    font-size: 8px !important;
+  }
+  .sidebar-icon-outer {
+    padding-bottom: 0px !important;
+  }
+
+  .personal-details-title{
+    font-size: 14px !important;
+  }
+  .change-password-title{
+    font-size: 12px !important;
+  }
+}

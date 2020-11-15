@@ -1,0 +1,329 @@
+.card-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 13%;
+  position: fixed;
+  z-index: 1 !important;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 0px;
+}
+
+.sidenav a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 0px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a,
+  .topnav input[type="text"],
+  .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}
+
+.pagination-style {
+  float: right;
+  padding: 20px;
+}
+
+.layout-style {
+  padding-left: 9%;
+  width: 100%;
+}
+
+.header-style {
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.page-title {
+  color: #2c5566;
+  font-weight: normal;
+}
+
+.card-style {
+  background: #fff !important;
+  border-radius: 10px !important;
+  box-shadow: 4px 4px 50px rgba(178, 205, 206, 0.5) !important;
+  padding: 10px !important;
+}
+
+.image-style {
+  width: 60px;
+  height: 60px;
+  border-radius: 90px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.button-style {
+  text-align: center;
+}
+
+.edit-icon {
+  background: #92b7bc !important;
+  margin: 5px !important;
+}
+.video-icon {
+  background: #2c5566 !important;
+  margin: 5px !important;
+}
+
+.physician-name {
+  color: #2c5566;
+  font-weight: bold;
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 170px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .physician-name {
+    width: 140px;
+    font-size: 14px;
+  }
+  .contact-number {
+    font-size: 14px;
+  }
+}
+
+.phone-icon {
+  font-size: 16px;
+  padding-right: 8px;
+  color: #92b7bc;
+}
+
+.contact-number {
+  color: #000000;
+}
+
+.card-content-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  margin-left: 5px;
+}
+
+.card-inner-content {
+  padding: 16px;
+}
+
+.card-outer-content {
+  padding: 10px;
+}
+
+.sonographer-back {
+  float: right;
+  font-size: 20px;
+  color: #2c5566;
+  cursor: pointer;
+  margin-top: -12px;
+}
+
+.online {
+  font-size: 14px;
+  padding-right: 8px;
+  color: green;
+}
+
+.offline {
+  font-size: 14px;
+  padding-right: 8px;
+  color: orange;
+}
+
+.busy {
+  font-size: 14px;
+  padding-right: 8px;
+  color: orange;
+}
+
+.away {
+  font-size: 14px;
+  padding-right: 8px;
+  color: orange;
+}
+
+.external-physician {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background: #2196f3;
+  color: white;
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.internal-physician {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background: #216886;
+  color: white;
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.external-sonographer {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background: #369ef1;
+  color: white;
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sonographer {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background: #06a0a0;
+  color: white;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.staff {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background: green;
+  color: white;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1440px) {
+  .search-filter {
+    width: 29.5% !important;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .search-filter {
+    width: 29% !important;
+  }
+}
+
+.search-physician-filter {
+  margin-top: -18px;
+  float: right;
+}

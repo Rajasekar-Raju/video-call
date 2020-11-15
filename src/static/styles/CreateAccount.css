@@ -1,0 +1,167 @@
+.create-page {
+    background-image: url("../assets/create-account-background.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.create-view {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 96%;
+    height: 90%;
+}
+.create-card {
+    width: 57%;
+    position: relative;
+    bottom: 20px;
+}
+
+.create-account-logo-view {
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.create-logo-image {
+    width: 27%;
+    height: 27%;
+}
+.card-view-1 {
+    padding: 30px 25px 15px 32px;
+    background-image: url("../assets/create-account.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: inherit;
+    height: 100%;
+}
+.column-view-1 {
+    display: grid;
+    font-size: 18px;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;
+}
+.column-view-2 {
+    display: grid;
+    justify-content: end;
+    align-items: flex-end;
+    color: white;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+}
+.signin-link {
+    color: #fcba16;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 2px;
+}
+.card-view-2 {
+    background: white;
+}
+.container {
+    padding: 10px 30px 10px 30px;
+}
+
+.button-view {
+    display: flex;
+    justify-content: center;
+    padding: 33px;
+}
+.register-button {
+    background: #2c5566 !important;
+    color: #fff !important;
+    padding: 12px !important;
+    font-weight: bold;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+.err {
+    color: red;
+}
+@media screen and (max-width: 1200px) {
+    .header-font {
+        font-size: 12px !important;
+    }
+    .content-view {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .button-style {
+        padding-bottom: 12px !important;
+        padding-top: 6px !important;
+    }
+    .header-style {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header-font {
+        font-size: 10px !important;
+    }
+}
+
+.MuiFormLabel-root {
+    font-size: 10px !important;
+}
+
+.signin-text {
+    color: #fcba16;
+}
+#form-fields {
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 20px;
+}
+.text-fields {
+    width: 100%;
+    border-bottom: 1px solid #fff !important;
+    margin-bottom: 5px;
+}
+.create-account-label {
+    color: #2c5566 !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #2c5566;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .create-card {
+        bottom: 0px;
+    }
+}
+
+.role-dropdown {
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+    padding-right: 32px !important;
+}
+
+.css-1hwfws3 {
+    padding: 0px !important;
+}
+
+.css-1pahdxg-control {
+    border: none !important;
+    border-bottom: 1px solid #2c5566 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
